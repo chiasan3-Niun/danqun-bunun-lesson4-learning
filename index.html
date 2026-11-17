@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>丹群布農語第一階第四課｜Simaq aas?</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="data/lesson4.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">跳到主要內容</a>
+  <header id="course-header">
+    <p>丹群布農語第一階第四課</p>
+    <h1>Simaq aas? 你是誰？</h1>
+  </header>
+  <main id="main-content">
+    <p id="status-message" role="status">準備開始自學。</p>
+    <section id="progress-area" aria-labelledby="progress-title">
+      <h2 id="progress-title">學習進度</h2>
+      <label for="study-progress">自學模組完成進度</label>
+      <progress id="study-progress" max="4" value="0"></progress>
+      <p id="study-count" role="status">已完成 0 / 4 個模組</p>
+      <div id="storage-status" role="status"></div>
+    </section>
+    <section id="study-area" aria-labelledby="study-title">
+      <h2 id="study-title">自學區</h2>
+      <ul id="study-outline" aria-label="自學單元"></ul>
+      <section aria-labelledby="study-module-title">
+        <h3 id="study-module-title" tabindex="-1">詞語卡</h3>
+        <div id="study-content"></div>
+        <div id="study-repair"></div>
+        <button id="complete-study" type="button" aria-pressed="false">完成自學</button>
+      </section>
+    </section>
+    <nav id="level-map" aria-labelledby="level-title">
+      <h2 id="level-title">關卡地圖</h2>
+      <p id="level-status" role="status">請先完成上方四個自學模組；完成後會解鎖第一關，通過一關再開啟下一關。</p>
+      <p class="level-help">四關玩法：詞語打地鼠 → 聽音找句 → 句子拼拼看 → 問候情境挑戰。</p>
+      <ol>
+        <li id="word-mole">詞語打地鼠</li>
+        <li id="listen-match">聽音找句</li>
+        <li id="sentence-order">句子拼拼看</li>
+        <li id="greeting-challenge">問候情境挑戰</li>
+      </ol>
+    </nav>
+    <section id="game-area" aria-labelledby="game-title" hidden>
+      <h2 id="game-title"></h2>
+      <h3 id="game-question" tabindex="-1"></h3>
+      <div id="game-content"></div>
+    </section>
+    <section id="feedback-area" aria-labelledby="feedback-title" aria-describedby="feedback-result" tabindex="-1">
+      <h2 id="feedback-title">答題回饋</h2>
+      <div id="feedback-result"><p>作答後，這裡會顯示答題理由與複習建議。</p></div>
+      <div id="feedback-actions" class="game-options"></div>
+    </section>
+    <section id="results-area" aria-labelledby="results-title" hidden>
+      <h2 id="results-title" tabindex="-1">學習結果</h2>
+      <p id="repair-outcome" role="status"></p>
+      <h3>各知識點累計正確率</h3>
+      <ul id="diagnostics-summary"></ul>
+      <h3>再學習清單</h3>
+      <div id="repair-queue"></div>
+      <div id="results-actions" class="game-options"></div>
+    </section>
+  </main>
+  <footer id="site-footer">
+    <p>音檔來源：<a href="https://ai-labs.ilrdf.org.tw/hnang-kari-ai-asi-sluhay/" target="_blank" rel="noopener noreferrer">族語語音合成平台</a>（布農語／丹群／男聲）。</p>
+    <p>© 2026 Niun的族語教學多媒體應用｜著作權所有，未經授權不得重製、改作或公開傳輸</p>
+    <p>頻道：<a href="https://www.youtube.com/@chiasan3" target="_blank" rel="noopener noreferrer">Niun的族語教學多媒體應用</a></p>
+    <p>文本來源：網站中12階教材內容，以國立政治大學原住民族研究中心提供之教材為依據。</p>
+    <p>發行單位：教育部、原住民族委員會。</p>
+    <p>編輯單位：國立政治大學原住民族研究中心。</p>
+    <p>教材內容出處：<a href="https://ebook-alcd.k12ea.gov.tw" target="_blank" rel="noopener noreferrer">https://ebook-alcd.k12ea.gov.tw</a></p>
+  </footer>
+</body>
+</html>
