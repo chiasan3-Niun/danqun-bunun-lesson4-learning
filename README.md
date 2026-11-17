@@ -1,5 +1,9 @@
 # 丹群布農語第一階第四課學習站
 
+## 線上操作
+
+👉 [開啟線上學習網站](https://danqun-bunun-lesson4-learning.vercel.app/)
+
 ## 本機開啟
 
 這是 buildless、無外部依賴的原生 HTML/CSS/JavaScript 網站，不需要安裝套件、不需要 build，也不需要登入。
