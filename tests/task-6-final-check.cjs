@@ -38,8 +38,7 @@ assert.match(readme, /task-5-asset-check\.cjs/);
 assert.match(readme, /task-6-final-check\.cjs/);
 assert.match(readme, /1-4-1丹群簡報原始檔/);
 assert.match(readme, /1-4-2丹群簡報原始檔/);
-assert.match(readme, /ai-labs\.ilrdf\.org\.tw/);
-assert.match(readme, /布農_丹群_男聲/);
+assert.match(readme, /Copyright © 2026 財團法人原住民族語言研究發展基金會 版權所有/);
 assert.doesNotMatch(readme, /對應待核對/);
 
 console.log('PASS: responsive, keyboard, accessibility, documentation, and final static contracts');
