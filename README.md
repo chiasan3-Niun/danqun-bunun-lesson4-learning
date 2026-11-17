@@ -47,14 +47,6 @@ node .\tests\task-6-final-check.cjs
 - [1-4-1丹群簡報原始檔](https://docs.google.com/document/d/1icz4LzAoSYGtjLN4wcv_--1zD2jcBJbIu-6rDh0rWFE)
 - [1-4-2丹群簡報原始檔](https://docs.google.com/document/d/18s3FB_48l7qd1FEvRCPxeONLFUu-wb8juJdkr2_TDFE)
 
-## 音檔來源與語別 caveat
-
-目前音檔由官方族語 AI 語音合成網站的「布農_丹群_男聲」產生，檔案位於 `assets/audio/`。丹群已確認為本課使用的正確語別，資料使用 `dialectStatus: "confirmed"` 與 `audioStatus: "available"`。
-
-音檔 metadata 集中在 `data/lesson4.js` 的 `audioAssets`，每筆包含 `sourceUrl`、`dialect`、`status`、`verifiedBy`、`createdAt` 與 `assetPath`。若音檔路徑缺少或播放失敗，播放按鈕會保留可理解的待補音／失敗提示，不影響文字活動。
-
-本課語別為丹群布農語。音檔來源：<https://ai-labs.ilrdf.org.tw/hnang-kari-ai-asi-sluhay/>。若音檔路徑缺少或播放失敗，播放按鈕仍會顯示文字提示，不影響文字活動。
-
 ## 頻道署名
 
 本網站的頻道署名為 **Niun的族語教學多媒體應用**：[YouTube 頻道](https://www.youtube.com/@chiasan3)。
@@ -63,7 +55,7 @@ node .\tests\task-6-final-check.cjs
 
 網站著作權聲明：© 2026 Niun的族語教學多媒體應用｜著作權所有，未經授權不得重製、改作或公開傳輸。
 
-族語語音合成授權：本語料庫採用 CC BY-NC 4.0（姓名標示－非商業性）條款授權，僅限於學術研究與非營利性之 AI 模型訓練；產出之衍生模型或產品不得用於商業營利，原始語料不得公開傳輸、轉售、分享或轉授權予第三方。語音授權標示來源為財團法人原住民族語言研究發展基金會。
+語料授權：Copyright © 2026 財團法人原住民族語言研究發展基金會 版權所有。
 
 文本來源：網站中12階教材內容，以國立政治大學原住民族研究中心提供之教材為依據。  
 發行單位：教育部、原住民族委員會。  
