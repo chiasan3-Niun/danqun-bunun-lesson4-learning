@@ -1,0 +1,4 @@
+interface:
+  display_name: "互動語言學習網站製作"
+  short_description: "用提供教材建立自學與闖關評量網站"
+  default_prompt: "請依照我提供的教材與素材，建立一個先自學、再闖關評量的 buildless 互動語言學習網站。"
